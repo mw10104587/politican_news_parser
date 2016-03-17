@@ -1,3 +1,5 @@
+<h1>How to get data from Google Alert</h1>
+
 I hunted around a fair bit looking for a way to convert Google Alerts into spreadsheet form, splitting the information into date, headline and publication name. I couldn’t find anything useful, so we decided to create one to help us analyze the data on the coverage of the U.S. Presidential race (hyperlink). There are probably easier ways to extract the data, but this is what worked for me.
 
 Step 1: Set up an account with mailparser.io to extract the relevant information from each Alert. Set the parsing rules as follows;
