@@ -20,7 +20,7 @@ By this point, in your spreadsheet, each alert should occupy one cell, starting 
 
 Step3: Run the following code on the data, downloaded as a csv file. Before running the code, Replace “Hillary Clinton - Sheet1.csv” with your file name and rename "hilary-cleaned-2.csv" to whatever you want to call your file.
 
-
+```python
 import csv, json
 
 
@@ -175,6 +175,8 @@ with open("hilary-cleaned-2.csv", "w") as of:
 	# lines = email.split("|")
 	# print lines[0]
 
+
+```
 
 
 And voila! You should have the data in a very pretty form, with the headline of each article followed by the date and outlet which published it.
